@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:hlg_app_zepro/src/features/authentication/screens/splash_screen/splash_screen.dart';
 import 'package:hlg_app_zepro/src/utils/theme/theme.dart';
 
 void main() {
@@ -10,13 +12,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'HLG APP Zero to Hero',
+    return GetMaterialApp(
+      title: 'HLG APP',
       debugShowCheckedModeBanner: false,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: const MyHomePage(title: 'HLG APP Zero to Hero'),
+      home: SplashScreen(),
     );
   }
 }
@@ -44,26 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: const EdgeInsets.all(20.0),
         child: ListView(
           children: [
-            Text(
-              'Heading',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-            Text(
-              'Sub-Heading',
-              style: Theme.of(context).textTheme.bodyMedium,
-            ),
-            Text(
-              'Paragraph',
-              style: Theme.of(context).textTheme.bodyMedium,
-            ),
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text("Elevated Button"),
-            ),
-            OutlinedButton(
-              onPressed: () {},
-              child: const Text("OutLined Button"),
-            ),
+            
+            Image.asset('assets/images/matey-welcome-1.png',)
           ],
         ),
       ),
