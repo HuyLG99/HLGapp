@@ -11,12 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'HLG APP',
+      title: 'HLG APP Zero to Hero',
       debugShowCheckedModeBanner: false,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: const MyHomePage(title: 'HLG APP'),
+      home: const MyHomePage(title: 'HLG APP Zero to Hero'),
     );
   }
 }
@@ -64,7 +64,6 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {},
               child: const Text("OutLined Button"),
             ),
-            Image.asset('assets/images/logo_cat.png')
           ],
         ),
       ),
