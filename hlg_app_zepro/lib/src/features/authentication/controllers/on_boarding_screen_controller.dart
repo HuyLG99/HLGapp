@@ -23,7 +23,7 @@ class OnBoardingController extends GetxController {
         model: OnBoardingModel(
             image: tOnBoardingImage2,
             title: tOnBoardingTitle2,
-            counterText: tonBoardingCounter2,
+            counterText: tOnBoardingCounter2,
             bgColor: tOnBoardingPage2Color,
             subTitle: tOnBoardingSubTitle2)),
     OnBoardingPageWidget(

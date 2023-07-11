@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:hlg_app_zepro/src/features/authentication/screens/on_boarding/on_boarding_screen.dart';
+import 'package:hlg_app_zepro/src/features/authentication/screens/welcome_screen/welcome_screens.dart';
 
 
 class SplashScreenController extends GetxController {
@@ -11,6 +11,6 @@ class SplashScreenController extends GetxController {
     await Future.delayed(Duration(milliseconds: 500));
     animated.value = true;
     await Future.delayed(Duration(milliseconds: 5000));
-    Get.to(OnBoardingScreeen());
+    Get.to(WelcomeScreen());
   }
 }

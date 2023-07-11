@@ -46,7 +46,6 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: const EdgeInsets.all(20.0),
         child: ListView(
           children: [
-            
             Image.asset('assets/images/splash_images/matey-welcome-1.png',)
           ],
         ),
