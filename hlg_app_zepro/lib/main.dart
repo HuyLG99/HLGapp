@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView(
           children: [
             
-            Image.asset('assets/images/matey-welcome-1.png',)
+            Image.asset('assets/images/splash_images/matey-welcome-1.png',)
           ],
         ),
       ),
