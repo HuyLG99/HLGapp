@@ -1,10 +1,13 @@
-
 import 'package:flutter/material.dart';
 
 class FormHeaderWidget extends StatelessWidget {
-   FormHeaderWidget({super.key, required this.image, required this.title, required this.subTitle});
+  FormHeaderWidget(
+      {super.key,
+      required this.image,
+      required this.title,
+      required this.subTitle});
 
-  final String image,title,subTitle;
+  final String image, title, subTitle;
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
@@ -13,10 +16,18 @@ class FormHeaderWidget extends StatelessWidget {
       children: [
         Image(
           image: AssetImage(image),
-          height: size.height*0.3,
+          height: size.height * 0.3,
         ),
-        Text(title,style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold),),
-        Text(subTitle,style: TextStyle(fontSize: 16,),),
+        Text(
+          title,
+          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        ),
+        Text(
+          subTitle,
+          style: TextStyle(
+            fontSize: 16,
+          ),
+        ),
       ],
     );
   }

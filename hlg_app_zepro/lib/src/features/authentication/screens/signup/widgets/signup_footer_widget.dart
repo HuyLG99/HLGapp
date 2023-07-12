@@ -4,8 +4,8 @@ import '../../../../../constants/image_strings.dart';
 import '../../../../../constants/sizes.dart';
 import '../../../../../constants/text_strings.dart';
 
-class LoginFooterWidget extends StatelessWidget {
-  const LoginFooterWidget({
+class SigUpFooterWidget extends StatelessWidget {
+  const SigUpFooterWidget({
     super.key,
   });
 
@@ -31,11 +31,11 @@ class LoginFooterWidget extends StatelessWidget {
             onPressed: () {},
             child: Text.rich(
               TextSpan(
-                  text: tDontHaveAnAccount,
+                  text: tAlreadyHaveAnAccount,
                   style: TextStyle(color: Colors.black, fontSize: 16),
                   children: [
                     TextSpan(
-                        text: tSignup,
+                        text: tLogin,
                         style: TextStyle(color: Colors.blue))
                   ]),
             ))

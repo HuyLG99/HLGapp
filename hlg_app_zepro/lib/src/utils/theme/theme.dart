@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hlg_app_zepro/src/utils/theme/widget_themes/elevated_button_theme.dart';
 import 'package:hlg_app_zepro/src/utils/theme/widget_themes/outlined_button_theme.dart';
+import 'package:hlg_app_zepro/src/utils/theme/widget_themes/text_form_field_theme.dart';
 import 'package:hlg_app_zepro/src/utils/theme/widget_themes/text_theme.dart';
 
 class TAppTheme {
@@ -15,6 +16,7 @@ class TAppTheme {
     textTheme: TTextTheme.lightTextTheme,
     outlinedButtonTheme: TOulinedButtonTheme.lightOulinedButtonTheme,
     elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme,
+    inputDecorationTheme: TTextFormFieldTheme.lightInputDecorationTheme
   );
 
   //DarkTheme
@@ -23,5 +25,7 @@ class TAppTheme {
     textTheme: TTextTheme.darkTextTheme,
     outlinedButtonTheme: TOulinedButtonTheme.darkOulinedButtonTheme,
     elevatedButtonTheme: TElevatedButtonTheme.darkElevatedButtonTheme,
+    inputDecorationTheme: TTextFormFieldTheme.darkInputDecorationTheme
+
   );
 }
