@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:hlg_app_zepro/src/features/authentication/screens/forget_password/forget_password_options/forget_password_model_bottom_sheet.dart';
 
 import '../../../../../constants/sizes.dart';
 import '../../../../../constants/text_strings.dart';
 
-class LoginForm extends StatelessWidget {
-  const LoginForm({
+class LoginFormWidget extends StatelessWidget {
+  const LoginFormWidget({
     super.key,
   });
 
@@ -38,10 +39,14 @@ class LoginForm extends StatelessWidget {
             ),
           ),
           SizedBox(height: tFormHeight - 20),
+
+          //Forget Password BTB
           Align(
             alignment: Alignment.centerRight,
             child: TextButton(
-              onPressed: () {},
+              onPressed: () {
+               ForgetPasswordScreen.buildShowModalBottomSheet(context);
+              },
               child: Text(tForgetPassword),
             ),
           ),
