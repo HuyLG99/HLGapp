@@ -63,3 +63,13 @@ const String tForgetMailSubTitle = "Enter your registered E-Mail to receive OTP"
 const String tOtpTitle = "CO\nDE";
 const String tOtpSubTitle = "Verification";
 const String tOtpMessage = "Enter the verification code sent at ";
+
+// -- Dashboard Screeen - Text
+const String tDashboardTitle = "Hey, Coding with H";
+const String tDashboardHeading= "Explore Courses";
+const String tDashBoardSearch = " Search....";
+const String tDashBoardBannerTitle1= "Android for Beginners";
+const String tDashBoardBannerTitle2= "Java";
+const String tDashBoardSubTitle = "10 Lesson";
+const String tDashBoardButton = "ViewAll";
+const String tDashBoardTopCourses="Top Courses";

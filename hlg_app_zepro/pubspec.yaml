@@ -84,6 +84,7 @@ flutter:
     - assets/images/splash_images/
     - assets/images/welcome_images/
     - assets/images/forget_password/
+    - assets/images/dashboard_images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

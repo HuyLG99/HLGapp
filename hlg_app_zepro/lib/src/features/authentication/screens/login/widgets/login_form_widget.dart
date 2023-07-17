@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:hlg_app_zepro/src/features/authentication/screens/forget_password/forget_password_options/forget_password_model_bottom_sheet.dart';
+import 'package:hlg_app_zepro/src/features/core/screens/dashboard/dashboard.dart';
 
 import '../../../../../constants/sizes.dart';
 import '../../../../../constants/text_strings.dart';
@@ -53,7 +55,9 @@ class LoginFormWidget extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(()=>DashBoard());
+              },
               child: Text(tLogin.toUpperCase()),
             ),
           )
