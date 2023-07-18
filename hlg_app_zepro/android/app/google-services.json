@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486916365224",
+    "project_id": "hwiapp",
+    "storage_bucket": "hwiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486916365224:android:9cbd470d19493f3aeedb9d",
+        "android_client_info": {
+          "package_name": "com.example.hlg_app_zepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486916365224-luuui8hkknerr2nom6o9pio93qqop451.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFUTDWl9JaQOKwDP3ivEayxkd29otwNgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486916365224-luuui8hkknerr2nom6o9pio93qqop451.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
