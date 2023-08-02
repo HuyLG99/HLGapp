@@ -66,6 +66,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '486916365224',
     projectId: 'hwiapp',
     storageBucket: 'hwiapp.appspot.com',
+    androidClientId: '486916365224-9d3h7hbvik8l9lcibaih786521b4a0ul.apps.googleusercontent.com',
     iosClientId: '486916365224-2gokeghhp0jjtvj6c3pf7qge4e3humah.apps.googleusercontent.com',
     iosBundleId: 'com.example.hlgAppZepro',
   );
@@ -76,6 +77,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '486916365224',
     projectId: 'hwiapp',
     storageBucket: 'hwiapp.appspot.com',
+    androidClientId: '486916365224-9d3h7hbvik8l9lcibaih786521b4a0ul.apps.googleusercontent.com',
     iosClientId: '486916365224-bealp8g07bdl83noekas0bg35mp03vbk.apps.googleusercontent.com',
     iosBundleId: 'com.example.hlgAppZepro.RunnerTests',
   );

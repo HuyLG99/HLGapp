@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "486916365224-9d3h7hbvik8l9lcibaih786521b4a0ul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hlg_app_zepro",
+            "certificate_hash": "077d088cde8087d25e1dc0b410a61accb96d27f0"
+          }
+        },
+        {
           "client_id": "486916365224-luuui8hkknerr2nom6o9pio93qqop451.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "486916365224-luuui8hkknerr2nom6o9pio93qqop451.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "486916365224-2gokeghhp0jjtvj6c3pf7qge4e3humah.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hlgAppZepro"
+              }
             }
           ]
         }

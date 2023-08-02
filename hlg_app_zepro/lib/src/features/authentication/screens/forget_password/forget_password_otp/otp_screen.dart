@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hlg_app_zepro/src/constants/sizes.dart';
 import 'package:hlg_app_zepro/src/constants/text_strings.dart';
+import 'package:hlg_app_zepro/src/features/authentication/controllers/otp_controller.dart';
 import 'package:otp_text_field/otp_text_field.dart';
 import 'package:otp_text_field/style.dart';
 
@@ -10,6 +12,8 @@ class OTPScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var otpController = Get.put(OTPController()); //
+    var otp;
     return Scaffold(
         body: Container(
       padding: EdgeInsets.all(tDefaultSize),
@@ -46,11 +50,15 @@ class OTPScreen extends StatelessWidget {
             },
             onCompleted: (pin) {
               print("Completed: OTP is =>" + pin);
+              otp=pin;
+              OTPController.instance.verifyOTP(otp);
             }),
         SizedBox(height: 20),
         SizedBox(
           width: double.infinity,
-          child: ElevatedButton(onPressed: () {}, child: Text(tNext)),
+          child: ElevatedButton(onPressed: () {
+            OTPController.instance.verifyOTP(otp);
+          }, child: Text(tNext)),
         ),
       ]),
     ));

@@ -16,4 +16,9 @@ class SignUpController extends GetxController{
   void registerUser(String email, String password){
     AuthenticationRepository.instance.createUserWithEmailAndPassword(email, password);
   }
+
+  //Get phoneNo from user and pass it to Auth Repository for Firebase Authentication
+  void phoneAuthentication(String phoneNo){
+    AuthenticationRepository.instance.phoneAuthentication(phoneNo);
+  }
 }

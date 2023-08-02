@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hlg_app_zepro/src/features/authentication/controllers/singup_controller.dart';
+import 'package:hlg_app_zepro/src/features/authentication/screens/forget_password/forget_password_otp/otp_screen.dart';
 
 import '../../../../../constants/sizes.dart';
 import '../../../../../constants/text_strings.dart';
@@ -53,10 +54,12 @@ class SignUpFormWidget extends StatelessWidget {
                print('EEEEEE VOO DC NE ${(_formKey.currentState?.validate())}');
                 // if (_formKey.currentState?.validate()==true) {
                 //   print('EEEEEE VOO DC NE');
-                  SignUpController.instance.registerUser(
-                      controller.email.text.trim(),
-                      controller.password.text.trim());
+                  // SignUpController.instance.registerUser(
+                  //     controller.email.text.trim(),
+                  //     controller.password.text.trim());
                 // }
+                SignUpController.instance.phoneAuthentication(controller.phoneNo.text.trim());
+                Get.to(()=>OTPScreen());
               },
               child: Text(tSignup.toUpperCase()),
             ),
